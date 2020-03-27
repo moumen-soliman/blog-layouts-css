@@ -1,0 +1,45 @@
+.blog-post-content {
+    grid-template-columns: 70% auto;
+    grid-gap: 50px;
+    display: grid;
+}
+
+.blog-post-content header {
+    margin-bottom: 40px;
+}
+
+.blog-post-content header .headline {
+    line-height: 0;
+}
+
+.blog-post-content header span {
+    color: gray;
+}
+
+.label-board {
+    background: #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.label-board .headline {
+    line-height: 0;
+}
+
+.ref-links a {
+    display: block;
+    margin: 10px 0;
+}
+
+.blog-post-content {
+    grid-template-columns: 70% auto;
+    grid-gap: 50px;
+    display: grid;
+}
+
+@media only screen and (max-width: 924px) {
+    .blog-post-content {
+        grid-template-columns: auto;
+    }    
+}
