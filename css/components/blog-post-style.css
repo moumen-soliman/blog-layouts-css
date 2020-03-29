@@ -13,7 +13,7 @@
 }
 
 .blog-post-content header span {
-    color: gray;
+    color: #a900ff;
 }
 
 .label-board {
@@ -21,6 +21,7 @@
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .label-board .headline {
@@ -28,14 +29,36 @@
 }
 
 .ref-links a {
-    display: block;
+    display: flex;
     margin: 10px 0;
+    color: blue;
 }
 
 .blog-post-content {
     grid-template-columns: 70% auto;
     grid-gap: 50px;
     display: grid;
+}
+
+.label-board--author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-board--author-info img{
+    margin: 10px auto;
+    border: 1px solid blue;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.label-board--author-info .label-board--author-info--details {
+    display: inherit;
+    flex-direction: inherit;
+}
+
+.label-board--author-info .label-board--author-info--details  span {
+    flex: 1;
 }
 
 @media only screen and (max-width: 924px) {

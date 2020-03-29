@@ -10,12 +10,6 @@ a {
     color: black;
 }
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 footer {
     background: #ddd;
     text-align: center;

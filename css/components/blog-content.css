@@ -7,6 +7,23 @@
     grid-gap: 20px;
 }
 
+.blog-content header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+    box-shadow: 0px 11px 13px 0 #eaeaea;
+}
+
+.blog-content .item-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .blog-content .blog-content-item {
     height: 200px;
     border: 4px solid #ddd;
@@ -28,6 +45,17 @@
     color: gray;
 }
 
-.blog-content .blog-content-item .blog-content-item--info h3 {
-    line-height: 0;
+.blog-content .blog-content-item .blog-content-item--info {
+    position: relative;
+}
+
+.blog-content .blog-content-item .blog-content-item--info figure{
+    float: right;
+}
+
+.blog-content .blog-content-item button {
+    background: #01B3E3;
+    color: white;
+    border: 0;
+    cursor: pointer;
 }
